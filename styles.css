@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url("./bg.jpg");
+    background-image: url("https://images.app.goo.gl/YdoLr8Qnu2JtX7e96");
     background-size: cover;
 }
 
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    gap: 20px;
     padding: 16px;
 }
 
@@ -26,8 +26,8 @@ body {
 }
 h2{
     font-family: 'Brush Script MT', cursive;
-    font-size: 20px;
+    font-size: 50px;
     height: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
