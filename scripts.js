@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
         "./11.jpg",
         "./12.jpg",
         "./13.jpg",
-    
     ];
 
     // Create and append image elements to the gallery container
