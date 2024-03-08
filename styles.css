@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.gallery-container img {
+    width: 100%; /* Make sure images take 100% of their container */
+    height: 250px; /* Fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border: 2px solid blue; /* Add a 2px gray border to all images */
+    border-radius: 8px; /* Add a slight border radius for a softer look */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1); /* Enlarge the image slightly on hover */
+}
+h2{
+    font-family: 'Brush Script MT', cursive;
+}
