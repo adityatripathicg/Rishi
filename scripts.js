@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Replace these image URLs with your own
     const imageUrls = [
-        "./1.jpg",
+
         "./2.jpg",
         "./5.jpg",
         "./6.jpg",
